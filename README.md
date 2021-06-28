@@ -5,4 +5,4 @@
 2. Flask
 
 ## Installation
-Go through the [ppt](ppt.pptx) for all details about installationa and working.
+Go through the [ppt](ppt.pptx) for all details about installation and working.
