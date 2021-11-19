@@ -22,3 +22,8 @@ Windows 32 bit - https://www.python.org/ftp/python/3.8.10/python-3.8.10.exe
 
 
 https://docs.google.com/presentation/d/1Ctcx6kpjop0NTR1NlhcdydpfD-C5QgYIW4pYxIFtrlM/edit#slide=id.p
+
+
+### Review 2 PPT
+
+https://docs.google.com/presentation/d/1CyKPW5j6n-BDfGmVPwm-0ShBNRdxHIBgkBVbzJ4-OzY/edit?usp=sharing
