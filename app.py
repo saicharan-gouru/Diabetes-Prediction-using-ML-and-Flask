@@ -4,12 +4,12 @@ import pandas as pd
 
 app = Flask(__name__)
 
-model = pickle.load(open("\code\flask\Diabetes.pkl", "rb"))
+model = pickle.load(open("/code\\/flask/Diabetes.pkl", "rb"))
 
 
 @app.route('/')
 def hello_world():
-    return render_template("\code\flask\templates\index.html")
+    return render_template("/code/flasktemplates/index.html")
 
 
 @app.route('/predict',methods=['POST','GET'])
@@ -29,9 +29,9 @@ def predict():
     output='{0:.{1}f}'.format(prediction[0][1], 2)
     output = str(float(output)*100)+'%'
     if output>str(0.5):
-        return render_template('\code\flask\templates\result.html',pred=f'You have chance of having diabetes.\nProbability of having Diabetes is {output}')
+        return render_template('/code/flask/templates/result.html',pred=f'You have chance of having diabetes.\nProbability of having Diabetes is {output}')
     else:
-        return render_template('\code\flask\templates\result.html',pred=f'You are safe.\n Probability of having diabetes is {output}')
+        return render_template('/code/flask/templates/result.html',pred=f'You are safe.\n Probability of having diabetes is {output}')
 
 
 
