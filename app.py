@@ -4,12 +4,12 @@ import pandas as pd
 
 app = Flask(__name__)
 
-model = pickle.load(open("/code\\/flask/Diabetes.pkl", "rb"))
+model = pickle.load(open("/code/flask/Diabetes.pkl", "rb"))
 
 
 @app.route('/')
 def hello_world():
-    return render_template("/code/flasktemplates/index.html")
+    return render_template("/code/flask/templates/index.html")
 
 
 @app.route('/predict',methods=['POST','GET'])
