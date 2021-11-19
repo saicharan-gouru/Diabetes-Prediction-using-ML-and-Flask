@@ -11,8 +11,8 @@ Go through the [ppt](ppt.pptx) for all details about installation and working.
 
 Click on the below link to install required version of python i.e. Python 3.8.10
 
-https://www.python.org/ftp/python/3.8.10/python-3.8.10-amd64.exe
-
+Windows 64 bit - https://www.python.org/ftp/python/3.8.10/python-3.8.10-amd64.exe
+Windows 32 bit - https://www.python.org/ftp/python/3.8.10/python-3.8.10.exe
 
 Review 1 PPT
 
